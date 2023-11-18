@@ -21,10 +21,10 @@ export async function POST(req: Request) {
   }
 
   const response = await openai.completions.create({
-    model: "text-davinci-003",
+    model: "gpt-3.5-turbo-instruct",
     stream: true,
     temperature: 0.7,
-    max_tokens: 200,
+    max_tokens: 150,
     prompt: prompt,
   });
 

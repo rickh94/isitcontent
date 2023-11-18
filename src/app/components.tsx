@@ -22,6 +22,9 @@ const funnyIdeas = [
   "Minecraft, but AI tells me what to do",
   "I survived 100 days in Minecraft Low-effort memes",
   "Drop a car on a trampoline",
+  "Do the penny challenge",
+  "Do the cinnamon challenge",
+  "Do the ice bucket challenge",
 ];
 
 function nextFunnyText(): string {
